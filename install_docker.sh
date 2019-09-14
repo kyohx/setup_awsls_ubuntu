@@ -15,4 +15,5 @@ add-apt-repository \
 
 apt install -y docker-ce
 
-usermod -aG docker $USER
+usermod -aG docker ubuntu
+
