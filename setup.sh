@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd scripts
 ./set_swapfile.sh
 ./apt_update.sh
 ./set_timezone.sh
