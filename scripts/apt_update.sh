@@ -1,4 +1,5 @@
 #!/bin/bash
 
 apt update
-apt upgrade -y
+apt upgrade -y --quiet --force-yes
+
